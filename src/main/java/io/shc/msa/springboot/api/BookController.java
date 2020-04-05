@@ -10,7 +10,7 @@ import io.shc.msa.springboot.domain.Book;
 import io.shc.msa.springboot.service.BookService;
 
 @RestController
-@RequestMapping("/books")
+@RequestMapping(value = "/books")
 public class BookController {
 
 	@Autowired
